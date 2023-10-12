@@ -59,11 +59,5 @@ resource "aws_security_group_rule" "jenkins_ingress" {
 }
 
 
-/* module "acm_certificate" {
-  source = "./acm_certificate"
-  
-  domain_name    = var.domain_name
-  route53_zone_id = var.route53_zone_id
-} */
 
 
