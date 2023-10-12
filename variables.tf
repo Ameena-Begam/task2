@@ -45,16 +45,7 @@ variable "db_allocated_storage" {
   type        = number
   default     = 20
 }
-#acm_certificate variables
-/* variable "domain_name" {
-  description = "The domain name for the SSL certificate."
-  type        = string
-}
 
-variable "route53_zone_id" {
-  description = "The ID of the Route 53 hosted zone for DNS validation."
-  type        = string
-} */
 
 # Variable for the name of the ELB security group
 variable "elb_security_group_name" {
