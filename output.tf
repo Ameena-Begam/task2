@@ -14,9 +14,7 @@ output "availability_zone_private_subnet1" {
 output "availability_zone_private_subnet2" {
   value = var.availability_zone_private_subnet2
 }
-/* output "certificate_arn" {
-  value = module.acm_certificate.certificate_arn
-} */
+
 
 output "s3_bucket_name" {
   value = module.s3.s3_bucket_name
